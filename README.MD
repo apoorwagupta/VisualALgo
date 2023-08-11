@@ -30,4 +30,4 @@
 - **Dynamic Adjustment:** Modify source and destination points as you explore.
 - **Obstacle Challenges:** Introduce obstacles to test path-finding prowess.
 
-The "Algorithm Visualiser" offers an engaging and educational platform, allowing you to delve into the intricate mechanisms of diverse algorithms. Enables one in the visualizations, experimenting with different scenarios, and developing a deeper understanding of algorithmic concepts through hands-on interaction. While an algorithm is running,The UI is Disabled and it can only be stopped using reset button. I 
+The "Algorithm Visualiser" offers an engaging and educational platform, allowing you to delve into the intricate mechanisms of diverse algorithms. Enables one in the visualizations, experimenting with different scenarios, and developing a deeper understanding of algorithmic concepts through hands-on interaction. While an algorithm is running,The UI is Disabled and it can only be stopped using reset button. 
