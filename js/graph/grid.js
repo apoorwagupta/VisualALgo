@@ -1,9 +1,9 @@
 let grid = document.querySelector('.grid-container');
 let selectedNavItem = document.querySelector('.list-item.selected');
 let resetBtn = document.querySelector('#reset-btn');
-let allPages = document.querySelectorAll('.page-nav-item');
+let allPages = document.querySelectorAll('.page-nav-item'); // sort or graph algo
 
-allPages.forEach(function(el){
+allPages.forEach(function(el){ //if  element has an id attribute equal to "graph-page" and adds the "selected" class to it, making it visually selected. Other elements have the "selected" class removed.
     if(el.getAttribute('id') == 'graph-page'){
         el.classList.add('selected');
     }else{
@@ -11,7 +11,7 @@ allPages.forEach(function(el){
     }
 })
 
-allPages[0].addEventListener('click',function(){
+allPages[0].addEventListener('click',function(){ //If this element is clicked, it sets an item in the browser's local storage with the key "selectedAlgo" to "bubble-sort" and then redirects to the "Sort.html" page.
     localStorage.setItem('selectedAlgo','bubble-sort');
     location.assign('Sort.html');
 })
